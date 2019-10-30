@@ -2,3 +2,5 @@ env
 *.DS_Store
 *.pyc
 __pycache__
+.vscode/settings.json
+.gitignore
