@@ -1,30 +1,22 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-import markdown
+from . import utils
 
-def home(request):
-    context = {
-        'content' : 'This text is built dynamiccaly by Django View function'
-    }
-    print("Path", request.path)
-    return render(request, 'index.html', context=context)
-    #return HttpResponse('Hello, world!')
+def default(request):
 
-def about(request):
+    if request.path == '/':
+        html = utils.convert_md_html('home.md')
+        context = {
+            'content' : html
+        }
 
-    return HttpResponse('About Me!')
+        return render(request, 'index.html', context=context)
+    
+    
+    elif request.path == '/3w/':
+        html = utils.convert_md_html('3w.md')
+        context = {
+            'content' : html
+        }
 
-def three_w(request):
-    context = {
-        'content' : 'This is 3Ws page'
-    }
-    print("Path", request.path)
-    return render(request, '3w.html', context=context)
-
-def rules(request):
-    return HttpResponse('rules!')
-
-def resourses(request):
-    return HttpResponse('resources!')
-
-# Create your views here.
+        return render(request, '3w.html', context=context)

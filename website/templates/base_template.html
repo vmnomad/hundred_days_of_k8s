@@ -9,70 +9,69 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Quicksand&display=swap" rel="stylesheet">
     <title>#100DaysOfK8s</title>
     <link rel="shortcut icon" type="image/x-icon" href="static/image/favicon.ico" />
 </head>
 
-<body style="padding-top: 100px;">
-    
+<body style="padding-top: 70px; font-size: 22px;">
+
     <div class="container-fluid">
-        <div class="row">
-            <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">
-                    <image src="/static/image/favicon.ico" width="30" height="30" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/3w">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://github.com"><span class="sr-only">(current)</span>
-                                <image src="/static/image/github-logo.png" width="30" height="30">
-                            </a>
-                        </li>
-                    </ul>
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" style="font-size: 20px; font-family: 'Quicksand', sans-serif;">
+            <a class="navbar-brand" href="#">
+                <image src="/static/image/favicon.ico" width="30" height="30" alt="">              
+            </a>
+            <button class="navbar-toggler" type="reset" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                </div>
-            </nav>
-        </div>
-        <div class="row">
-                {% block content %}{% endblock %}   
-        </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">#100DaysOfK8s</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Rules<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            3 Ws
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">What</a>
+                            <a class="dropdown-item" href="#">Why</a>
+                            <a class="dropdown-item" href="#">Who</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Resources<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/3w">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com"><span class="sr-only">(current)</span>
+                            <image src="/static/image/github-logo.png" width="30" height="30">
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
 
 
+        {% block content %}{% endblock %}
 
-        
+
+
 
     </div>
 
