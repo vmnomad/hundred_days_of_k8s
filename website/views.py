@@ -13,10 +13,12 @@ def default(request):
         return render(request, 'index.html', context=context)
     
     
-    elif request.path == '/3w/':
-        html = utils.convert_md_html('3w.md')
+    else:
+        name = request.path.split('/')[1] + '.md'
+        html = utils.convert_md_html(name)
         context = {
             'content' : html
         }
 
         return render(request, '3w.html', context=context)
+

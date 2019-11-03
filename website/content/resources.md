@@ -1,4 +1,4 @@
-## Everyone Loves Markdown
+## Resources Page
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod aliquet est, id feugiat tellus
         vulputate eu.

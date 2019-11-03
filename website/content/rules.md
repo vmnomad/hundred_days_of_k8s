@@ -1,7 +1,5 @@
-## Everyone Loves Markdown
+## Rules Page
 
-
-## heading<a name="headin"></a>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod aliquet est, id feugiat tellus
         vulputate eu.
         Donec rhoncus massa sed ligula egestas, sit amet posuere ante pulvinar. Donec enim nunc, maximus quis

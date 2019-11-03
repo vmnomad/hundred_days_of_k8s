@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Quicksand&display=swap" rel="stylesheet">
     <title>#100DaysOfK8s</title>
     <link rel="shortcut icon" type="image/x-icon" href="static/image/favicon.ico" />
 </head>
@@ -18,9 +18,10 @@
 
     <div class="container-fluid">
 
-        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" style="font-size: 20px; font-family: 'Quicksand', sans-serif;">
-            <a class="navbar-brand" href="#">
-                <image src="/static/image/favicon.ico" width="30" height="30" alt="">              
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark"
+            style="font-size: 20px; font-family: 'Quicksand', sans-serif;">
+            <a class="navbar-brand" href="https://100daysOfK8s.io">
+                <image src="/static/image/favicon.ico" width="30" height="30" alt="">
             </a>
             <button class="navbar-toggler" type="reset" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,12 +31,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">#100DaysOfK8s</a>
+                        <a class="nav-link" href="https://100daysOfK8s.io">#100DaysOfK8s</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Rules<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/rules">Rules<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -43,23 +44,27 @@
                             3 Ws
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">What</a>
-                            <a class="dropdown-item" href="#">Why</a>
-                            <a class="dropdown-item" href="#">Who</a>
+                            <a class="dropdown-item" href="/what">What?</a>
+                            <a class="dropdown-item" href="/why`">Why?</a>
+                            <a class="dropdown-item" href="/who">Who?</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#">and How?</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Resources<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/resources">Resources</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/3w">About</a>
+                        <a class="nav-link" href="/about">About</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="https://github.com"><span class="sr-only">(current)</span>
                             <image src="/static/image/github-logo.png" width="30" height="30">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://twitter.com"><span class="sr-only">(current)</span>
+                            <image src="/static/image/twitter-logo.png" width="30" height="30">
                         </a>
                     </li>
                 </ul>
@@ -88,6 +93,18 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function () {
+            // get current URL path and assign 'active' class
+            var pathname = window.location.pathname;
+            if(pathname[1] == 'w')
+            {
+                $('.navbar-nav > li > a[href="' + '#' + '"]').parent().addClass('active');
+            }
+            console.log('pathname: ' + pathname[1])
+            $('.navbar-nav > li > a[href="' + pathname + '"]').parent().addClass('active');
+        })
     </script>
 </body>
 
