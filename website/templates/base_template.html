@@ -14,7 +14,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="static/image/favicon.ico" />
 </head>
 
-<body style="padding-top: 70px; font-size: 22px;">
+<body style="padding-top:30px; font-size: 22px;">
 
     <div class="container-fluid">
 
@@ -44,11 +44,11 @@
                             3 Ws
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="/what">What?</a>
-                            <a class="dropdown-item" href="/why`">Why?</a>
-                            <a class="dropdown-item" href="/who">Who?</a>
+                            <a class="dropdown-item" href="/3w#what">What?</a>
+                            <a class="dropdown-item" href="/3w#why">Why?</a>
+                            <a class="dropdown-item" href="/3w#who">Who?</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">and How?</a>
+                            <a class="dropdown-item" href="/3w#how">How?</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -58,12 +58,12 @@
                         <a class="nav-link" href="/about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com"><span class="sr-only">(current)</span>
+                        <a class="nav-link" href="https://github.com" target="_blank"><span class="sr-only">(current)</span>
                             <image src="/static/image/github-logo.png" width="30" height="30">
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://twitter.com"><span class="sr-only">(current)</span>
+                        <a class="nav-link" href="https://twitter.com" target="_blank"><span class="sr-only">(current)</span>
                             <image src="/static/image/twitter-logo.png" width="30" height="30">
                         </a>
                     </li>
@@ -98,11 +98,7 @@
         $(document).ready(function () {
             // get current URL path and assign 'active' class
             var pathname = window.location.pathname;
-            if(pathname[1] == 'w')
-            {
-                $('.navbar-nav > li > a[href="' + '#' + '"]').parent().addClass('active');
-            }
-            console.log('pathname: ' + pathname[1])
+            pathname = pathname.substring(0, pathname.length - 1);
             $('.navbar-nav > li > a[href="' + pathname + '"]').parent().addClass('active');
         })
     </script>
