@@ -4,3 +4,5 @@ env
 __pycache__
 .vscode/settings.json
 .gitignore
+.circleci/old-config.yml
+.gitignore
