@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    {% load static %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Quicksand&display=swap" rel="stylesheet">
     <title>#100DaysOfK8s</title>
-    <link rel="shortcut icon" type="image/x-icon" href="static/image/favicon.ico" />
-    {% load static %}
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'image/favicon.ico' %}" />
+   
 </head>
 
 <body style="padding-top:30px; font-size: 22px;">
