@@ -6,3 +6,5 @@ __pycache__
 .gitignore
 .circleci/old-config.yml
 .gitignore
+certificates/domain-crt.crt
+certificates/domain-key.key
