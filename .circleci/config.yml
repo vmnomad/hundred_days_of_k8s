@@ -31,9 +31,10 @@ jobs:
       - run:
           name: Deploy Over SSH
           command: |
-            ssh $ec2username@$ec2host "cd $ec2path && git pull origin master"
+            ssh $ec2username@$ec2host sh -c '
+            cd $ec2path && git pull origin master
             sudo docker build -t server:1.02 ./hundred_days_of_k8s/
-            docker run -d --rm -p=443:443 server:1.02
+            docker run -d --rm -p=443:443 server:1.02'
 
 workflows:
   version: 2
