@@ -33,7 +33,9 @@ jobs:
           command: |
             ssh $ec2username@$ec2host sh -c '
             cd $ec2path && git pull origin master
-            sudo docker build -t server:1.02 ./hundred_days_of_k8s/
+            docker stop $allContainers
+            docker build -t server:1.02 ./hundred_days_of_k8s/
+            docker rmi $allDanglingImages
             docker run -d --rm -p=443:443 server:1.02'
 
 workflows:
