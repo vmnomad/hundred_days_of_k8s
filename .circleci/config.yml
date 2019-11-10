@@ -33,7 +33,7 @@ jobs:
           command: |
             ssh $ec2username@$ec2host "cd $ec2path && git pull origin master && sh -c '
             docker build -t server:1.02 .
-            docker rm $(docker ps -a -q)
+            docker rm $allContainers
             docker run -d --rm -p=443:443 server:1.02'"
 workflows:
   version: 2
