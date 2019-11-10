@@ -32,8 +32,9 @@ jobs:
           name: Deploy Over SSH
           command: |
             ssh $ec2username@$ec2host "cd $ec2path && git pull origin master && sh -c '
+            docker stop $allContainers
             docker build -t server:1.02 .
-            docker rm $allContainers
+            docker rmi $allDanglingImages
             docker run -d --rm -p=443:443 server:1.02'"
 workflows:
   version: 2
