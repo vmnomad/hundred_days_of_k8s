@@ -8,3 +8,7 @@ __pycache__
 .gitignore
 certificates/domain-crt.crt
 certificates/domain-key.key
+certificates/100daysofk8s.crt
+certificates/100daysofk8s.key
+certificates/certificate.crt
+.gitignore
