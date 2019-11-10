@@ -34,7 +34,6 @@ jobs:
             ssh $ec2username@$ec2host cd $ec2path && git pull origin master && sh -c "
             docker build -t server:1.02 ./hundred_days_of_k8s/
             docker run -d --rm -p=443:443 server:1.02"
-
 workflows:
   version: 2
   build-and-deploy:
