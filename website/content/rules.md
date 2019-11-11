@@ -1,5 +1,3 @@
-## Rules Page
-
 The rules are very simple.
 
 1. Spend at least 1 hour every day learning and practicing containers development and 
