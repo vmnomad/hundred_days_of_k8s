@@ -1,35 +1,45 @@
-## Resources Page
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod aliquet est, id feugiat tellus
-        vulputate eu.
-        Donec rhoncus massa sed ligula egestas, sit amet posuere ante pulvinar. Donec enim nunc, maximus quis
-        dictum
-        eget,
-        convallis sit amet velit. Donec aliquam euismod blandit. Nulla molestie commodo sodales. Etiam rhoncus
-        non enim
-        vel
-        consequat. Mauris maximus diam ac velit ullamcorper rhoncus. Donec eget ex rhoncus, sodales ex
-        convallis,
-        hendrerit
-        est. Vivamus neque neque, auctor id pretium et, gravida vitae mauris. Ut eget orci sit amet mauris
-        pharetra
-        egestas
-        lacinia nec velit. Nam facilisis finibus feugiat. Suspendisse volutpat dictum sagittis. Fusce lobortis
-        rutrum ex
-        ac
-        placerat. Nullam porttitor sapien at nisi mattis commodo. Vivamus turpis neque, feugiat id sollicitudin
-        id,
-        congue
-        et lectus.
+### **Official Trainings**
+
+Here is the list of useful resources to support you during #100Daysofk8s journey. This includes
+popupar trainings and different ways to connect with K8s community.
+
+<span style="font-size:14px;">*The list will be updated on a regular basis as I make progress in my challenge.</span>
 
 
-Nulla ullamcorper justo sit amet volutpat tristique. Morbi dignissim molestie urna, ut finibus enim
-        tristique
-        sed.
-        Duis ut libero diam. Mauris in augue eget leo faucibus porta. Maecenas porttitor sem metus, in sagittis
-        lorem
-        lacinia vel. Nam et justo ac nisl consequat facilisis vel venenatis sem. Quisque luctus malesuada ex id
-        molestie.
-        Duis quis sodales ipsum. Mauris eu enim in lorem consequat vestibulum. Etiam condimentum mauris vel
-        maximus
-        tempor.
+* [Containers Fundamentals (LFS253)](https://training.linuxfoundation.org/training/containers-fundamentals/)
+
+    Understanding docker containers (or any other container engines) is an essential skill for learning kubernetes
+
+* [Introduction to Kubernetes (LFS158)](https://training.linuxfoundation.org/training/introduction-to-kubernetes/)
+
+    it is a good place to start learning containers if you have zero experience with K8s.
+    This is a free training available on the popular education platform [edx.org](https://www.edx.org).
+
+* [Kubernetes Fundamentals (LFS258)](https://training.linuxfoundation.org/training/kubernetes-fundamentals/)
+
+    The training is highly recommended for those pursuing Certified Kubernetes Administrator certification
+    The training isn't free, but it comes with the CKA exam voucher that allows you to take the exam twice.  
+
+
+### **Connect**
+
+* [Kubernetes on Slack](https://slack.k8s.io/)
+    
+    This is probably the biggest community of IT professionals
+    My favourite channels are <span style="color:#f0b27a">**#kubernetes-novice**</span> and <span style="color:#f0b27a">**#cka-exam-prep**</span>
+
+* [#100DaysofK8s twitter bot](https://twitter.com/100DaysOfK8s)
+    
+    I wrote a simple bot that will promote your progress by retwitting tweets with #100Daysofk8s #hastag and by posting latest new on K8s. This is really useful to keep yourself motivated, to seek for help and help others. 
+
+### More challenges to join
+
+* [100 Days of X](https://www.100daysofx.com)
+
+    This website contains all sorts of 100 Days challenges that will help you to gain new skills
+    or quit an unhealthy habit. It may give you an idea on what challenge you'd like to start next and
+    can help you to connect with people going through the same challenge.
+
+
+
