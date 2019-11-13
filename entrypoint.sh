@@ -1,7 +1,7 @@
 #!/bin/sh
 cd /hundred_days_of_k8s
 
-#prepare nging config
+#prepare nginx config
 cp website.conf /etc/nginx/conf.d/
 cp proxy_params /etc/nginx/
 cp certificates/100daysofk8s.crt /etc/nginx/

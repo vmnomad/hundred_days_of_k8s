@@ -1,16 +1,22 @@
-## About Page
+## **About Challenge**
 
-The idea of the 100 Days of Kubernetes challenge was inspired by similar challenge 100 days of code.
+The idea of the 100 Days of Kubernetes challenge was inspired by similar challenge called **100 days of code**.
+
+The whole point behind any of 100 Days challenges is to create a new healthy habit or get rid of undesired habbit.
+
+I am personally now on the second round of #100DaysOfCoding challenge and I don't see any reason not to go for round 3. 
 
 
+## **About this web site**
 
-Nulla ullamcorper justo sit amet volutpat tristique. Morbi dignissim molestie urna, ut finibus enim
-        tristique
-        sed.
-        Duis ut libero diam. Mauris in augue eget leo faucibus porta. Maecenas porttitor sem metus, in sagittis
-        lorem
-        lacinia vel. Nam et justo ac nisl consequat facilisis vel venenatis sem. Quisque luctus malesuada ex id
-        molestie.
-        Duis quis sodales ipsum. Mauris eu enim in lorem consequat vestibulum. Etiam condimentum mauris vel
-        maximus
-        tempor.
+The web site was created to let author practice building a web site using 
+
+[100daysofk8s.io Git](https://github.com/vmnomad/hundred_days_of_k8s)
+
+## **About Twitter Bot**
+
+[Twitter bot](https://github.com/vmnomad/twitter_bot) 
+
+#### **About Author**
+
+Askar Kopbayev, 

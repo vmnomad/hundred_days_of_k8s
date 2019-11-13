@@ -1,39 +1,39 @@
 
-# Aaron is my best friend
-# This is final CI version
+#  **#100 Days of Kubernetes**
 
-## Everyone Loves Markdown
+##### Welcome to the official website for the challenge. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod aliquet est, id feugiat tellus
-        vulputate eu.
-        Donec rhoncus massa sed ligula egestas, sit amet posuere ante pulvinar. Donec enim nunc, maximus quis
-        dictum
-        eget,
-        convallis sit amet velit. Donec aliquam euismod blandit. Nulla molestie commodo sodales. Etiam rhoncus
-        non enim
-        vel
-        consequat. Mauris maximus diam ac velit ullamcorper rhoncus. Donec eget ex rhoncus, sodales ex
-        convallis,
-        hendrerit
-        est. Vivamus neque neque, auctor id pretium et, gravida vitae mauris. Ut eget orci sit amet mauris
-        pharetra
-        egestas
-        lacinia nec velit. Nam facilisis finibus feugiat. Suspendisse volutpat dictum sagittis. Fusce lobortis
-        rutrum ex
-        ac
-        placerat. Nullam porttitor sapien at nisi mattis commodo. Vivamus turpis neque, feugiat id sollicitudin
-        id,
-        congue
-        et lectus.
+&nbsp;
 
+___
+## <p align="center">**Rules**:</p>
 
-Nulla ullamcorper justo sit amet volutpat tristique. Morbi dignissim molestie urna, ut finibus enim
-        tristique
-        sed.
-        Duis ut libero diam. Mauris in augue eget leo faucibus porta. Maecenas porttitor sem metus, in sagittis
-        lorem
-        lacinia vel. Nam et justo ac nisl consequat facilisis vel venenatis sem. Quisque luctus malesuada ex id
-        molestie.
-        Duis quis sodales ipsum. Mauris eu enim in lorem consequat vestibulum. Etiam condimentum mauris vel
-        maximus
-        tempor.
+1. Spend at least 1 hour every day learning and practicing containers development and orchestration
+2. Tweet your progress with #100DaysOfK8s hashtag
+
+&nbsp;
+___
+
+## <p align="center">**On this web site you can learn:**</p>
+
+* About the challenge and why 100 Days are important
+* What we trying to learn in 100 Days
+* Why it important
+* Who should be taking this challenge
+* How you can get to the goal in the most efficient way
+* Useful resources
+
+&nbsp;
+___
+
+## <p align="center">**Few hints to help you succeed:**</p>
+
+* Have a clear goal, e.g. 'in 100 days I want to be ready to take Kubernetes Certified Administrator exam' or 'I want to learn how to create an application using microservices architecture'
+* Connect with other people. You can 
+* Support and encourage others using #100DaysOfK8s hashtag in Twitter. This will help everyone taking part in this challenge to stay motivated and will help yourself to stick to your commitment.
+* (Optional, but highly recommended) Fork this Github repo and commit to the Log daily. Follow the instructions in the repo.
+
+&nbsp;
+___
+If you are interested in changing other habits, check out the [#100DaysOfX](https://www.100daysofx.com/) Project!
+___
