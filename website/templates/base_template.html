@@ -2,6 +2,20 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29112808-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-29112808-2');
+    </script>
+
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,15 +25,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Quicksand&display=swap" rel="stylesheet">
+    <title>#100DaysOfK8s</title>
+
     <style>
         li {
             margin: 10px 0;
         }
     </style>
 
-    <title>#100DaysOfK8s</title>
-    <link rel="shortcut icon" type="image/x-icon" href="{% static 'image/favicon.ico' %}" />
 
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'image/favicon.ico' %}" />
 </head>
 
 <body style="padding-top:30px; padding-bottom:60px; font-size: 22px;">
@@ -39,10 +54,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://100daysOfK8s.io">#100DaysOfK8s</a>
+                        <a class="nav-link" href="/">#100DaysOfK8s</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav ml-auto">
+                <ul class=" navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="/rules">Rules<span class="sr-only">(current)</span></a>
                     </li>

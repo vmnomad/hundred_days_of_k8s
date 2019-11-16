@@ -32,6 +32,7 @@ ___
 * Connect with other people. You can 
 * Support and encourage others using #100DaysOfK8s hashtag in Twitter. This will help everyone taking part in this challenge to stay motivated and will help yourself to stick to your commitment.
 * (Optional, but highly recommended) Fork this Github repo and commit to the Log daily. Follow the instructions in the repo.
+* Try not to take more than 2 challenges. It gets overwhelming very quick. What I learned is that focusing on 1 or 2 study subjects is way more efficient than trying to learn mulitple things at the same time.
 
 &nbsp;
 ___

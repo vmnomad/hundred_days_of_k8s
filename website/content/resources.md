@@ -6,16 +6,18 @@ popupar trainings and different ways to connect with K8s community, seek help an
 
 <span style="font-size:14px;">*The list will be updated on a regular basis as I make progress in my challenge.</span>
 
+&nbsp;
+
 ### **Official Trainings**
 
 * [Containers Fundamentals (LFS253)](https://training.linuxfoundation.org/training/containers-fundamentals/)
 
-    Understanding docker containers (or any other container engines) is an essential skill for learning kubernetes
+    Understanding docker containers (or any other container runtimes) is an essential skill for learning kubernetes.
 
 * [Introduction to Kubernetes (LFS158)](https://training.linuxfoundation.org/training/introduction-to-kubernetes/)
 
-    it is a good place to start learning containers if you have zero experience with K8s.
-    This is a free training available on the popular education platform [edx.org](https://www.edx.org).
+    It is a good place to start learning containers if you have zero experience with K8s.
+    This is a free training available on the popular education platform [edx.org](https://www.edx.org/course/introduction-to-kubernetes).
 
 * [Kubernetes Fundamentals (LFS258)](https://training.linuxfoundation.org/training/kubernetes-fundamentals/)
 
@@ -23,12 +25,23 @@ popupar trainings and different ways to connect with K8s community, seek help an
     The training isn't free, but it comes with the CKA exam voucher that allows you to take the exam twice.  
 
 
+&nbsp;
+
+### **Browser based labs** 
+The following resources are web based Kubernetest labs. You would be able to complete a set of tasks and get some hands on experience without installing a single thing.
+
+* [Play with Kubernetes](https://training.play-with-kubernetes.com)
+    
+* [Katacode](https://www.katacoda.com/courses/kubernetes)
+
+
+&nbsp;
+
 ### **Connect**
 
 * [Kubernetes on Slack](https://slack.k8s.io/)
     
-    This is probably the biggest community of IT professionals
-    My favourite channels are <span style="color:#f0b27a">**#kubernetes-novice**</span> and <span style="color:#f0b27a">**#cka-exam-prep**</span>
+    This is probably the biggest community of IT professionals. My favourite channels are <span style="color:#f0b27a">**#kubernetes-novice**</span> and <span style="color:#f0b27a">**#cka-exam-prep**</span>
 
 * [Community Forums](https://discuss.kubernetes.io)
 
@@ -36,12 +49,14 @@ popupar trainings and different ways to connect with K8s community, seek help an
 
 * [Offline meetups](https://www.meetup.com/en-AU/topics/kubernetes/) 
 
-    Find the local Kubernetes Meetup groups to join. Check upcoming events and conferences.
+    Take you connect experience offline. Find the local Kubernetes Meetup groups to join. Check upcoming events and conferences.
 
 * [#100DaysofK8s twitter bot](https://twitter.com/100DaysOfK8s)
     
-    I wrote a simple bot that will promote your progress by retwitting tweets with #100Daysofk8s hashtag and by posting latest news on K8s. By following the bot's retweets you will be able to encourage and support others. It will also help you stick to your commitment and increase your streaks. You can even use it to seek for help and help others. 
+    I wrote a simple bot that will promote your progress by retwitting tweets with #100Daysofk8s hashtag. By following the bot's retweets you will be able to encourage and support others. It will also help you stick to your commitment and increase your streaks. You can even use it to seek for help or help others. 
 
+
+&nbsp;
 
 ### More challenges to join
 
