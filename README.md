@@ -1,8 +1,8 @@
 # 100daysofk8s.io web site
 
-The web site is build primarily for learning purpose to familiarise myself with a process of building the web server from the scratch.
+The web site was created primarily for learning purpose to familiarise myself with a process of building the web server from the scratch.
 
-Another important goal of this web site is to promote containers orchestration
+Another important goal of this web site is to promote containers orchestration.
 
 The web app is created using Django framework. 
 
