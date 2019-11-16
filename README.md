@@ -14,16 +14,11 @@ To learn CI/CD process I used CircleCI that does the following:
   * Build the app using Dockerfile
   * Run Django tests
   * Push the updated code to AWS EC2 instance provided that tests were completed successfully
+  * Stop and Delete running container
+  * Build and Start a new container running updated code
 
+The web server is built using Nginx as a reverse proxy server that serves requests via Gunicorn. 
 
-**The bot requires the following ENV variables for authentication:**
+Initial docker container was build using generic Python image, however, it turned out to be huge - 1.4GB for a very small and simple web site. To reduce image footprint the image was replaced with Alpine Python version which brought image size to 300MB.
 
-- CONSUMER_KEY
-- CONSUMER_SECRET
-- ACCESS_TOKEN
-- ACCESS_TOKEN_SECRET
-
-**Another ENV variable is required to set the keyword for tweets:**
-- KEYWORD
-
-**To run the bot in the container update the above mentioned variables in the dockerfile before building the image**
+I am pretty sure it could have been done better given that it was my first experience with pretty much all products used here, so feel free to leave a comment/suggestion on how to improve it. 
