@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'id!ce4$6@i*2kpk@d5&4-oi#+hu8$91!#56^l43^oq^r0osd(#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['vmnomad.pythonanywhere.com','localhost', '127.0.0.1']
 
