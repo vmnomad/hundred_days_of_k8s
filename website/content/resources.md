@@ -2,22 +2,22 @@
 
 
 Here you can find useful resources to support you during #100Daysofk8s journey. This includes
-popupar trainings and different ways to connect with K8s community, seek help and support others.
+popular training courses and different ways to connect with K8s community, seek help and support others.
 
-<span style="font-size:14px;">*The list will be updated on a regular basis as I progress through this challenge.</span>
+<span style="font-size:14px;">*The list will be updated regularly as I progress through this challenge.</span>
 
 &nbsp;
 
-### **Official Trainings**
+### **Official Training Courses**
 
 * [Containers Fundamentals (LFS253)](https://training.linuxfoundation.org/training/containers-fundamentals/)
 
-    Understanding docker containers (or any other container runtimes) is an essential skill for learning kubernetes.
+    Understanding docker containers (or any other container runtimes) is an essential skill for learning Kubernetes.
 
 * [Introduction to Kubernetes (LFS158)](https://training.linuxfoundation.org/training/introduction-to-kubernetes/)
 
     It is a good place to start learning containers if you have zero experience with K8s.
-    This is a free training available on the popular education platform [edx.org](https://www.edx.org/course/introduction-to-kubernetes).
+    This is free training available on the popular education platform [edx.org](https://www.edx.org/course/introduction-to-kubernetes).
 
 * [Kubernetes Fundamentals (LFS258)](https://training.linuxfoundation.org/training/kubernetes-fundamentals/)
 
@@ -27,8 +27,8 @@ popupar trainings and different ways to connect with K8s community, seek help an
 
 &nbsp;
 
-### **Browser based labs** 
-The following resources are web based Kubernetest labs. You would be able to complete a set of tasks and get some hands on experience without installing a single thing.
+### **Browser-based labs** 
+The following resources are web-based Kubernetes labs. You would be able to complete a set of tasks and get some hands-on experience without installing a single thing.
 
 * [Play with Kubernetes](https://training.play-with-kubernetes.com)
     
@@ -45,7 +45,7 @@ The following resources are web based Kubernetest labs. You would be able to com
 
 * [Community Forums](https://discuss.kubernetes.io)
 
-    Official forum of the Kuberenetes community
+    The official forum of the Kubernetes community
 
 * [Offline meetups](https://www.meetup.com/en-AU/topics/kubernetes/) 
 
@@ -53,7 +53,7 @@ The following resources are web based Kubernetest labs. You would be able to com
 
 * [#100DaysofK8s twitter bot](https://twitter.com/100DaysOfK8s)
     
-    I wrote a simple bot that will promote your progress by retwitting tweets with #100Daysofk8s hashtag. By following the bot's retweets you will be able to encourage and support others. It will also help you stick to your commitment and increase your streaks. You can even use it to seek for help or help others. 
+    I wrote a simple bot that will promote your progress by retweeting tweets with #100Daysofk8s hashtag. By following the bot's retweets you will be able to encourage and support others. It will also help you stick to your commitment and increase your streaks. You can even use it to seek for help or help others. 
 
 
 &nbsp;
@@ -63,7 +63,7 @@ The following resources are web based Kubernetest labs. You would be able to com
 * [100 Days of X](https://www.100daysofx.com)
 
     This website contains all sorts of 100 Days challenges that will help you to gain new skills
-    or quit an unhealthy habit. It may give you an idea on what challenge you'd like to start next and
+    or quit an unhealthy habit. It may give you an idea of what challenge you'd like to start next and
     can help you to connect with people going through the same challenge.
 
 

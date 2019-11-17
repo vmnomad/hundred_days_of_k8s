@@ -8,7 +8,7 @@
 ___
 ## <p align="center">**Rules**:</p>
 
-1. Spend at least 1 hour every day learning and practicing containers development and orchestration
+1. Spend at least 1 hour everyday learning and practising containers development and orchestration
 2. Tweet your progress with #100DaysOfK8s hashtag
 
 &nbsp;
@@ -30,8 +30,8 @@ ___
 
 * Have a clear goal, e.g. 'in 100 days I want to be ready to take Kubernetes Certified Administrator exam' or 'I want to learn how to create an application using microservices architecture'
 * Connect with other people.
-* Support and encourage others using #100DaysOfK8s hashtag in Twitter. This will help everyone taking part in this challenge to stay motivated and will help yourself to stick to your commitment.
-* Try not to take more than 2 challenges at the same time. It gets overwhelming very quick. What I learned is that focusing on 1 or 2 study subjects is way more efficient than trying to learn mulitple things simultaneously.
+* Support and encourage others using #100DaysOfK8s hashtag on Twitter. This will help everyone taking part in this challenge to stay motivated and will help yourself to stick to your commitment.
+* Try not to take more than 2 challenges at the same time. It gets overwhelming very quickly. What I learned is that focusing on 1 or 2 study subjects is way more efficient than trying to learn multiple things simultaneously.
 
 &nbsp;
 ___
