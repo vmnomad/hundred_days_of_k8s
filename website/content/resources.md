@@ -4,7 +4,7 @@
 Here you can find useful resources to support you during #100Daysofk8s journey. This includes
 popupar trainings and different ways to connect with K8s community, seek help and support others.
 
-<span style="font-size:14px;">*The list will be updated on a regular basis as I make progress in my challenge.</span>
+<span style="font-size:14px;">*The list will be updated on a regular basis as I progress through this challenge.</span>
 
 &nbsp;
 
