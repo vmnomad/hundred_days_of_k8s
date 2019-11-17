@@ -35,7 +35,7 @@ ___
 
 &nbsp;
 ___
-If you are ready - commit to the challenge
+###Ready to commit?   
 <a href="https://twitter.com/intent/tweet?button_hashtag=Commit&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-text="I&#39;m publicly committing to the 100DaysOfK8s Challenge starting today! Learn More and Join me https://100DaysOfK8s.io #100DaysOfK8s" data-show-count="false">Tweet #Commit</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ___
