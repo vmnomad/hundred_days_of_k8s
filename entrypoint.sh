@@ -2,8 +2,8 @@
 cd /hundred_days_of_k8s
 
 #prepare nginx config
-cp website.conf /etc/nginx/conf.d/
-cp proxy_params /etc/nginx/
+cp nginx/website.conf /etc/nginx/conf.d/
+cp nginx/proxy_params /etc/nginx/
 cp certificates/100daysofk8s.crt /etc/nginx/
 cp certificates/100daysofk8s.key /etc/nginx/
 rm /etc/nginx/conf.d/default.conf
