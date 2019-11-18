@@ -17,7 +17,7 @@ ___
 ## <p align="center">**On this web site you can learn:**</p>
 
 * About the challenge and why 100 Days are important
-* What we trying to learn in 100 Days
+* What we are trying to learn in 100 Days
 * Why it is important
 * Who should be taking this challenge
 * How you can get to the goal in the most efficient way
